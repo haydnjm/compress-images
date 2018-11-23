@@ -1,0 +1,17 @@
+{
+  "name": "s3-compress-images",
+  "version": "1.0.0",
+  "description": "Take images from input bucket and output compressed images into output bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-mozjpeg": "^8.0.0"
+  }
+}
